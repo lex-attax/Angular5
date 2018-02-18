@@ -28,3 +28,12 @@ git remote add origin "remote repository URL"
 Sets the new remote
 git remote -v
 Verifies the new remote URL git push origin master Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+
+Git troubleshooting:
+
+folder icon is grey in guthub:
+git rm --cached <folder_name>
+git add .
+git commit -m "<your_message>"
+git push --all
