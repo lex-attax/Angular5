@@ -38,3 +38,9 @@ git rm --cached <folder_name>
 git add .
 git commit -m "<your_message>"
 git push --all
+
+Install Bootstrap:
+npm install --save bootstrap@3
+
+Update node to newest version:
+nvm install node
