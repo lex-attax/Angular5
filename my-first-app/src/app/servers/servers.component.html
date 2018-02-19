@@ -1,5 +1,12 @@
 <!-- [ ] = syntax for property-binding -->
 <!-- ( ) = syntax for event-binding -->
+<label for="">Server Name</label>
+<input
+    type="text"
+    class="form-control"
+    (input)="onUpdateServerName($event)">
+<p>{{ serverName }}</p>
+
 <button
     class="btn btn-primary"
     [disabled]="!allowNewServer"
