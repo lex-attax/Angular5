@@ -1,8 +1,11 @@
-<!-- [ ] syntax for property-binding -->
+<!-- [ ] = syntax for property-binding -->
+<!-- ( ) = syntax for event-binding -->
 <button
     class="btn btn-primary"
-    [disabled]="!allowNewServer">Add Server</button>
-
+    [disabled]="!allowNewServer"
+    (click)="onCreateServer()">Add Server</button>
+<!--<p [innerText]="allowNewServer"></p>-->
+<p> {{ serverCreationStatus }} </p>
 <app-server></app-server>
 <p>
   servers works!
