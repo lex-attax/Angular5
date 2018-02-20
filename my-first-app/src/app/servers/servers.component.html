@@ -21,6 +21,12 @@
 <!--<p> {{ serverCreationStatus }} </p>-->
 <!-- * is required because ngIf is a structural directive (changes the structure of DOM)-->
 <p *ngIf="serverCreated">Server was created, server name is {{ serverName }}</p>
+<!-- # = local reference, marker -->
+<!--<ng-template #noServer>-->
+<!--    <p>-->
+<!--        No Server was created!-->
+<!--    </p>-->
+<!--</ng-template>-->
 <app-server></app-server>
 <p>
   servers works!
