@@ -18,7 +18,9 @@
     [disabled]="!allowNewServer"
     (click)="onCreateServer()">Add Server</button>
 <!--<p [innerText]="allowNewServer"></p>-->
-<p> {{ serverCreationStatus }} </p>
+<!--<p> {{ serverCreationStatus }} </p>-->
+<!-- * is required because ngIf is a structural directive (changes the structure of DOM)-->
+<p *ngIf="serverCreated">Server was created, server name is {{ serverName }}</p>
 <app-server></app-server>
 <p>
   servers works!
