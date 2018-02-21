@@ -7,7 +7,7 @@ To create an Angular 2 project on C9 do the following:
 Create a blank workspace.
 Get the latest node.js (to keep ng2 CLI happy).
 nvm install node#
-nvm use 7.4.0 nvm alias default v7.4.0
+nvm use v9.5.0 nvm alias default v9.5.0
 Update npm.
 npm install -g npm
 Get the Angular 2 CLI (Command Line Interface).
