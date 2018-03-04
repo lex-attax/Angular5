@@ -2,7 +2,8 @@ import { Component,
   OnInit,
   Input,
   ViewEncapsulation,
-  OnChanges
+  OnChanges,
+  SimpleChanges
 } from '@angular/core';
 
 @Component({
@@ -19,8 +20,9 @@ export class ServerElementComponent implements OnInit, OnChanges {
     console.log('constroctor called!');
   }
   
-  ngOnChanges() {
-    
+  //only hook that receives arguments
+  ngOnChanges(changes: SimpleChanges) {
+      console.log('ngOnChanges called!');
   }
 
   ngOnInit() {
