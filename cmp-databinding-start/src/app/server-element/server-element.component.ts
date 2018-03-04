@@ -15,6 +15,7 @@ import { Component,
 export class ServerElementComponent implements OnInit, OnChanges {
   // assign an alias inside ()
   @Input('srvElement') element: {type: string, name: string, content: string};
+  @Input() name: string;
 
   constructor() { 
     console.log('constroctor called!');
@@ -23,6 +24,7 @@ export class ServerElementComponent implements OnInit, OnChanges {
   //only hook that receives arguments
   ngOnChanges(changes: SimpleChanges) {
       console.log('ngOnChanges called!');
+      console.log(changes);
   }
 
   ngOnInit() {
