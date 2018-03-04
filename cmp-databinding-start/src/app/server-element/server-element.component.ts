@@ -3,7 +3,8 @@ import { Component,
   Input,
   ViewEncapsulation,
   OnChanges,
-  SimpleChanges
+  SimpleChanges,
+  doCheck
 } from '@angular/core';
 
 @Component({
@@ -12,7 +13,7 @@ import { Component,
   styleUrls: ['./server-element.component.css'],
   encapsulation: ViewEncapsulation.Emulated // None, Native
 })
-export class ServerElementComponent implements OnInit, OnChanges {
+export class ServerElementComponent implements OnInit, OnChanges, doCheck {
   // assign an alias inside ()
   @Input('srvElement') element: {type: string, name: string, content: string};
   @Input() name: string;
@@ -29,6 +30,10 @@ export class ServerElementComponent implements OnInit, OnChanges {
 
   ngOnInit() {
     console.log('ngOnInit called!');
+  }
+  //gets calles whenever angualar checks for any changes
+  ngDoCheck() {
+    console.log('ngDoCheck called!')
   }
 
 }
