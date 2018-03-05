@@ -23,7 +23,7 @@ import { Component,
 export class ServerElementComponent implements
   OnInit,
   OnChanges,
-  doCheck,
+  DoCheck,
   AfterContentInit,
   AfterContentChecked,
   AfterViewInit,
@@ -47,6 +47,7 @@ export class ServerElementComponent implements
 
   ngOnInit() {
     console.log('ngOnInit called!');
+        console.log('Text Content: ' + this.header.nativeElement.textContent);
   }
   //gets calles whenever angualar checks for any changes
   ngDoCheck() {
@@ -63,6 +64,7 @@ export class ServerElementComponent implements
 
   ngAfterViewInit() {
     console.log('ngAfterViewInit called!');
+    console.log('Text Content: ' + this.header.nativeElement.textContent);
   }
   
   ngAfterViewChecked() {
