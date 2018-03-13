@@ -16,10 +16,10 @@ export class GameControlComponent implements OnInit {
   }
   
   onStartGame() {
-    this.interval = setInterval(() => {
-      this.intervalFrired.emit(this.lastNumber +1);
-      this.lastNumber++;
-      },1000) 
+      this.interval = setInterval(() => {
+        this.intervalFrired.emit(this.lastNumber +1);
+        this.lastNumber++;
+      },1000);
   }
   
 }
