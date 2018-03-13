@@ -25,5 +25,8 @@ export class GameControlComponent implements OnInit {
   onPauseGame() {
     this.interval = clearInterval(this.interval);
   }
-
+    onStopGame() {
+    this.interval = clearInterval(this.interval);
+    this.lastNumber = 0;
+  }
 }
