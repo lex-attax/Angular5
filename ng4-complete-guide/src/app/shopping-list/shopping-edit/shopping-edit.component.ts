@@ -11,5 +11,10 @@ export class ShoppingEditComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+  addToList(nameInput, amountInput) {
+    console.log(nameInput);
+    console.log(amountInput);
+  }
 
 }
