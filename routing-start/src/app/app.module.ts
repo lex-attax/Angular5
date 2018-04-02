@@ -16,11 +16,11 @@ import { ServersService } from './servers/servers.service';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }, 
   { path: 'users', component: UsersComponent, children: [
-     { path: ':id/:name', component: UserComponent }, 
+    { path: ':id/:name', component: UserComponent }
     ] }, 
   { path: 'servers', component: ServersComponent, children: [
     { path: ':id', component: ServerComponent }, 
-    { path: ':id/edit', component: EditServerComponent }, 
+    { path: ':id/edit', component: EditServerComponent }
     ] }
   ];
 
