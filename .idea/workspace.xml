@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2c8f2d9-4810-4aff-b1b8-7ad0b1aed000" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routing-start/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/routing-start/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routing-start/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/routing-start/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/my-first-app/dist/" />
     <ignored path="$PROJECT_DIR$/my-first-app/tmp/" />
@@ -30,8 +29,31 @@
     <expand />
     <select />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -63,6 +85,24 @@
               <item name="Angular5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Angular5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular5" type="462c0819:PsiDirectoryNode" />
+              <item name="routing-start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular5" type="462c0819:PsiDirectoryNode" />
+              <item name="routing-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular5" type="462c0819:PsiDirectoryNode" />
+              <item name="routing-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -75,7 +115,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/routing-start/node_modules/typescript/lib" />
+    <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,15 +184,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523177118970</updated>
-      <workItem from="1523177130636" duration="3038000" />
+      <workItem from="1523177130636" duration="3576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3038000" />
+    <option name="totallyTimeSpent" value="3576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="48" width="1234" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -162,10 +205,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32403433" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32403433" />
       <window_info id="Capture Tool" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
       <window_info anchor="right" id="Database" weight="0.32922825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -191,5 +235,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
