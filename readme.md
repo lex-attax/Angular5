@@ -44,3 +44,6 @@ npm install --save bootstrap@3
 
 Update node to newest version:
 nvm install node
+
+Install rxjs:
+npm install --save rxjs-compat
